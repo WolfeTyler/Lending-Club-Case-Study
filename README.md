@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+This project involves a comprehensive Exploratory Data Analysis (EDA) of the Lending Club public loan dataset, looking to uncover insights into how various loan features influence the likelihood of borrowers defaulting on their loans leading to the amount being charged off.
 
 
 ## Table of Contents
@@ -11,23 +11,26 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-In this project, I worked with the public Lending Club loan dataset containing 39k loan records issued in 2024, each of which has 111 associated features. My goal was to understand the factors that determine whether or not a loan will be fully paid or charged off, in order to minimize the risks of loan defaults for the company. I also would like to find the most important factors in making decisions about lending.
+Lending Club is a peer-to-peer lending platform that connects borrowers with investors. The primary objective of this analysis is to identify patterns and factors that contribute to loan defaults, thereby assisting in mitigating credit risk. The dataset used encompasses numerous factors such as loan amounts, interest rates, employment information, credit history, etc. with more than 111 associated features included across 39k loan records.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- **Grade and Sub-grade**: Lower grades (e.g., D, E, F, G) and their sub-grades were strongly associated with higher default rates. Borrowers in these categories typically face higher interest rates, increasing their risk of default. From the data we can see that customers with a A credit greade only have an ~5% charge-off rate vs. those with a F grade increase up to a ~30% risk.
+- **Revolving Credit Utilization**: Borrowers with higher revolving credit utilization (percentage of available credit used) were more likely to default. This indicates financial stress and over-leveraging. From the data we can see that customers with a 10% credit utilization only have an ~10% charge-off rate vs. those with 90% utilization increase up to a ~20% risk.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+The analysis was conducted using the following technologies:
+
+- Python
+- Jupyter Notebook
+- Matplotlib
+- Pandas version 2.2.2
+- NumPy version 1.26.4
+- Seaborn version 0.13.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -39,7 +42,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@WolfeTyler](https://github.com/WolfeTyler) - feel free to contact me!
 
 
 <!-- Optional -->
