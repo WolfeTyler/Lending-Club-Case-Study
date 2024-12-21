@@ -16,7 +16,7 @@ Lending Club is a peer-to-peer lending platform that connects borrowers with inv
 ## Conclusions
 - **Grade and Sub-grade**: Lower grades (e.g., D, E, F, G) and their sub-grades were strongly associated with higher default rates. Borrowers in these categories typically face higher interest rates, increasing their risk of default. From the data we can see that customers with a A credit greade only have an ~5% charge-off rate vs. those with a F grade increase up to a ~30% risk.
 
-![alt text]([http://url/to/img.png](https://github.com/WolfeTyler/Lending-Club-Case-Study/blob/main/LoansChargedOffbyGrade.png))
+[Loans Charged Off by Grade](https://github.com/WolfeTyler/Lending-Club-Case-Study/blob/main/LoansChargedOffbyGrade.jpg?raw=true)
 
 - **Revolving Credit Utilization**: Borrowers with higher revolving credit utilization (percentage of available credit used) were more likely to default. This indicates financial stress and over-leveraging. From the data we can see that customers with a 10% credit utilization only have an ~10% charge-off rate vs. those with 90% utilization increase up to a ~20% risk.
 - **Annual Income**: Borrowers with a lower annual income (<$40,000) exhibited a higher likelihood of defaulting compared to higher income customers.
